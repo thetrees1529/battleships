@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: Unlicensed
 
 pragma solidity 0.8.19;
-import "./IBattleShipsTracker.sol";
+import "./IBattleshipsTracker.sol";
 
 contract BattleshipsTracker01 is IBattleShipsTracker {
     struct ShipStats {
