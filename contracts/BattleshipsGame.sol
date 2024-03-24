@@ -3,6 +3,7 @@
 pragma solidity 0.8.19;
 import "@openzeppelin/contracts/access/AccessControl.sol";
 import "./BattleToken.sol";
+import "./IBattleShipsTracker.sol";
 import "@thetrees1529/solutils/contracts/gamefi/Nft.sol";
 
 contract Battleships is AccessControl, Nft("uri", "Battleships", "BTS") {
